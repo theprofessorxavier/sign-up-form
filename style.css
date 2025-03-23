@@ -96,6 +96,10 @@ fieldset{
 .input-container>input{
     width: 250px;
     height: 30px;
+    border: 0.5px solid black;
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 5px;
 }
 
 button[type="submit"]{
@@ -133,12 +137,9 @@ form a{
     text-decoration: none;
 }
 
-input{
-    outline-color:red;
-}
-
 input:focus{
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+    border: 2px solid #0077b6;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
 }
 
 input[type="password"]:invalid{
